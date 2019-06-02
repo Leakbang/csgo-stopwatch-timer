@@ -1,4 +1,7 @@
-# csgo stopwatch/timer
+# Stopwatch/Timer
+A **demo** map is included that can be used as a template (**Demo** map only works in csgo)
+## Installation
+- Place the stopwatch plugin in `Steam\steamapps\common\Counter-Strike Global Offensive\csgo\scripts\vscripts`
 - Shoot your weapon to **start/stop** the timer
 ## Manual Installation
 - Create a `logic_script` entity in your map and change the `Name` property to `logic_script` and Entity Scripts to `stopwatch.nut`
