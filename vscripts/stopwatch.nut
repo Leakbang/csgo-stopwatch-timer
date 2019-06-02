@@ -14,9 +14,10 @@ Milisecs <- 0;
 
 function StartTimer()
 {
+	//Start the timers
 	EntFireByHandle(LogicTimer1, "Enable", "", 0, null, null);
 	EntFireByHandle(LogicTimer2, "Enable", "", 0, null, null);
-  ScriptPrintMessageCenterAll("Go");
+	ScriptPrintMessageCenterAll("Go");
 }
 function Milisecondtimer()
 {
@@ -36,11 +37,14 @@ function IncrementVariable()
 }
 function StopTimer()
 {
-    EntFireByHandle(LogicTimer1   , "Disable", "", 0, null, null);
+		//Stop the timers
+		EntFireByHandle(LogicTimer1   , "Disable", "", 0, null, null);
 		EntFireByHandle(LogicTimer2, "Disable", "", 0, null, null);
-    ScriptPrintMessageCenterAll("" + Secs + "." + Milisecs);
-    ScriptPrintMessageChatAll("Time: " + Secs + "." + Milisecs);
+		ScriptPrintMessageCenterAll("" + Secs + "." + Milisecs);
+		ScriptPrintMessageChatAll("Time: " + Secs + "." + Milisecs);
+		//Reset the variables
 		Secs=0;
+		Milisecs=0;
 }
 function Enable()
 {
