@@ -37,14 +37,14 @@ function IncrementVariable()
 }
 function StopTimer()
 {
-		//Stop the timers
-		EntFireByHandle(LogicTimer1   , "Disable", "", 0, null, null);
-		EntFireByHandle(LogicTimer2, "Disable", "", 0, null, null);
-		ScriptPrintMessageCenterAll("" + Secs + "." + Milisecs);
-		ScriptPrintMessageChatAll("Time: " + Secs + "." + Milisecs);
-		//Reset the variables
-		Secs=0;
-		Milisecs=0;
+	//Stop the timers
+	EntFireByHandle(LogicTimer1   , "Disable", "", 0, null, null);
+	EntFireByHandle(LogicTimer2, "Disable", "", 0, null, null);
+	ScriptPrintMessageCenterAll("" + Secs + "." + Milisecs);
+	ScriptPrintMessageChatAll("Time: " + Secs + "." + Milisecs);
+	//Reset the timers
+	Secs=0;
+	Milisecs=0;
 }
 function Enable()
 {
