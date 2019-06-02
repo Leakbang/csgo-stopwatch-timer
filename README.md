@@ -4,7 +4,7 @@ This plugin is very useful to measure precise timings on a work in progress or e
 A **demo** map is included that can be used as a template (**Demo** map only works in csgo)  
 ## Installation
 - Place the stopwatch plugin in `Steam\steamapps\common\Counter-Strike Global Offensive\csgo\scripts\vscripts`
-- Copy the 5 `logic` entities to your map
+- Copy the 5 `logic`entities found in **demo.vmf** to your map
 - Compile your map
 ## How to use
 - Type in the chat to **activate/deactivate** the timer
